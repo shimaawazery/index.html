@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(248, 244, 250);
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+    color: #f9f5f5;
+    background-color: #6d6b6b;
+    font-size: 25px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.card {
+    background: rgb(248, 244, 244);
+    border-radius: 100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card:hover {
+    transform: scale(1.09);
+    padding: 8px;
+    opacity: 0.8;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.card h3 {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 10px;
+    color: #5a5858;
+    border-radius: 100;
+}
+
+.card h6 {
+    font-size: 15px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color:rgb(44, 144, 251); /* لون الزر */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none; /* إزالة الخط السفلي */
+    transition: background-color 0.3s, transform 0.2s; /* تأثيرات الانتقال */
+}
+
+.button:hover {
+    background-color:rgb(78, 40, 192); /* لون الزر عند التمرير */
+    transform: scale(1.05); /* تكبير الزر عند التمرير */
+}

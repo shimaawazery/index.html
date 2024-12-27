@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+    <title>More details</title>
+
+</head>
+<body>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #dedbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.product-container {
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    width: 550px;
+    margin-top: 220px;
+
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.product-title {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+
+.product-description {
+    color: #555;
+}
+
+.details-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.09);
+}
+
+.more-details {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+  </style>
+    <div class="product-container">
+        <img src="MEGA.jpg" alt="صورة المنتج" class="product-image">
+        <h2 class="product-title">Arduino MEGA 2560</h2>
+        <p class="product-description">It is the largest of all the boards we talked about and is used in large applications and projects that require a large number of poles and need a larger memory size than the previous types. Among its most important specifications are:<br>
+
+            Type of controller: ATMEGA2560<br>
+            Number of input and output poles: 54<br>
+            Number of PWM signal poles: 15<br>
+            Number of analog poles: 16<br>
+            Processor speed: 16MHz<br>
+            Working voltage: 5V<br>
+            Flash program memory size: 256KB<br>
+            SRAM data memory size: 8KB<br>
+            EEPROM programmable read-write memory size: 4KB</p><br>
+        <button id="details-button" class="details-button">Add to cart</button>
+        <div id="more-details" class="more-details hidden">
+            <h3>تفاصيل إضافية</h3>
+            <p>هنا يمكنك إضافة تفاصيل إضافية عن المنتج، مثل المواصفات، المميزات، أو أي معلومات أخرى تود مشاركتها.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      
+    ></script>
+</body>
+</html>
